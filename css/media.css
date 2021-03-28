@@ -1,0 +1,221 @@
+@media(max-width:1025px) {
+    .container {
+        width: calc(100% - 32px);
+    }
+    .saly {
+        width: 30%;
+        right: 0;
+    }
+}
+
+@media(max-width:991px) {
+    .search img {
+        width: 30%;
+    }
+    .saly {
+        display: none;
+    }
+}
+
+@media(max-width:845px) {
+    .search img {
+        display: none;
+    }
+}
+
+@media(max-width:791px) {
+    .footer div {
+        flex-direction: column;
+    }
+    .footer div ul {
+        width: 100%;
+    }
+    .footer div ul li,
+    .footer div p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer ul {
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+    .footer ul li {
+        margin-bottom: 8px;
+    }
+    .footer ul li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width:695px) {
+    .nav_bar {
+        display: none;
+    }
+}
+
+@media(max-width: 440px) {
+    .logo {
+        padding-left: 16px;
+    }
+    .nav_bar {
+        display: none;
+    }
+    .head_end a:first-child {
+        width: 32px;
+        height: 32px;
+    }
+    .head_end a:nth-child(2) {
+        display: none;
+    }
+    .burger_icon {
+        display: block;
+    }
+    .head_end a:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        margin-right: 16px;
+    }
+    .main_nav {
+        /* padding-left: 16px; */
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .main_nav li:first-child::after {
+        display: none;
+    }
+    .main_nav li:first-child::before {
+        content: url(../img/main/arrow/chevron_left.svg);
+        flex: none;
+        align-items: center;
+        order: 1;
+        height: 24px;
+        flex-grow: 0;
+        margin: 0px 0px;
+        vertical-align: text-top;
+    }
+    .main_nav li:last-child {
+        display: none;
+    }
+    .search {
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+    .search img {
+        display: none;
+    }
+    .search h1 {
+        padding: 0;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 12px;
+    }
+    .search p {
+        padding-left: 0;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    br {
+        display: block;
+    }
+    .search input {
+        margin: 0;
+        width: 100%;
+    }
+    .new_article {
+        padding-bottom: 16px;
+    }
+    .new_article .flex {
+        flex-direction: column;
+    }
+    .article_item,
+    .article_item img {
+        width: 100%;
+    }
+    .article_item img {
+        margin-bottom: 16px;
+    }
+    .article_item_content h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .dots {
+        display: inline;
+    }
+    .mobile_text {
+        display: none;
+    }
+    .article_upper {
+        padding-top: 8px;
+    }
+    .interesting .article_upper {
+        padding-bottom: 14px;
+    }
+    .top_day {
+        padding-bottom: 0;
+    }
+    .top_day .flex {
+        flex-direction: column;
+    }
+    .top_day .flex .article_item img,
+    .interest_item img {
+        width: 100%;
+        border-radius: 12px;
+    }
+    .top_day .flex .article_item {
+        padding-bottom: 23px;
+    }
+    .interesting_inner {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .interest_item {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .promo_banner {
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+    .promo_banner .promo_logo {
+        background: none;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+    .promo_banner img:last-child {
+        display: none;
+    }
+    .promo_banner h2 {
+        font-family: 'Poppins-ExtraBold';
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .promo_banner p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .promo_banner button {
+        margin-bottom: 0;
+        width: 100%;
+    }
+    .interest_wrapper .interesting_inner:nth-child(4) .interest_item:nth-child(1) {
+        margin-bottom: 0;
+    }
+    section .top_day:last-child {
+        padding-bottom: 96px;
+    }
+    .full {
+        display: none;
+    }
+    .unshown {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
